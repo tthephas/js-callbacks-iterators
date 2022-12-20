@@ -40,3 +40,7 @@ let forecast = [
 // "Monday will have a high of 55F and a low of 53F."
 
 //Your code here
+
+forecast.forEach((temp) => {
+    console.log(`${temp.day} will have a high of ${temp.high}F and a low of ${temp.low}F.`)
+})

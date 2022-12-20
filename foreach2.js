@@ -12,3 +12,7 @@ let foods = [
 
 // your code here
 
+foods.forEach((favFood) => {
+  console.log(favFood.name + ' is ' + favFood.level + ' delicious.')
+})
+
